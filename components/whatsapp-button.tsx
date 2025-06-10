@@ -34,7 +34,7 @@ export function WhatsappButton() {
   const handleClick = () => {
     analytics.trackWhatsAppClick("floating_button")
     window.open(
-      "https://wa.me/5512992192268?text=Oi, vim do site e gostaria de mais informações",
+      "https://wa.me/5512992192268?text=Olá! Vim da landing page e gostaria de mais informações",
       "_blank",
       "noopener,noreferrer",
     )

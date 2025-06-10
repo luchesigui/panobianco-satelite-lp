@@ -18,6 +18,7 @@ export default function PanobiancoLanding() {
 
   const toggleFaq = (index: number) => {
     const faqQuestions = [
+      "Eu quero treinar aí, mas ainda estou amarrado na minha academia",
       "Como funciona para levar convidados?",
       "Preciso agendar as aulas coletivas?",
       "O que significa 'sem fidelidade' no Plano Platinum?",
@@ -375,6 +376,25 @@ export default function PanobiancoLanding() {
 
           <div className="space-y-3 sm:space-y-4">
             {[
+              {
+                question: "Eu quero treinar aí, mas ainda estou amarrado na minha academia",
+                answer: (
+                  <>
+                    Pensando justamente em você, nós temos uma super promoção de transferência onde cobrimos o valor da
+                    sua multa. Para saber mais detalhes{" "}
+                    <a
+                      href="https://calculadora.panobiancosatelite.com.br"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#f15927] font-medium hover:underline"
+                      onClick={() => analytics.trackEvent("faq_promo_link_click", { link: "calculadora_multa" })}
+                    >
+                      clique aqui
+                    </a>
+                    .
+                  </>
+                ),
+              },
               {
                 question: "Como funciona para levar convidados?",
                 answer:
