@@ -342,10 +342,11 @@ export default function PanobiancoLanding() {
               <CardContent className="p-0">
                 <Quote className="w-8 h-8 sm:w-12 sm:h-12 text-[#f15927] mb-4 sm:mb-6" />
                 <p className="text-base sm:text-lg text-gray-700 mb-4 sm:mb-6 leading-relaxed">
-                  "Nunca pensei que fosse gostar tanto de treinar! As aulas são incríveis, os equipamentos são modernos
-                  e o ambiente é super motivador. Já trouxe várias amigas e todas se apaixonaram também!"
+                  "O que eu mais gostei logo de cara foi a atenção dos professores, eles são muito atenciosos,
+                  simpáticos e tem muita paciência com a gente. Sempre estimulando a gente a treinar e treinar da forma
+                  correta e com treinos personalizados pra gente. Não ficar amarrado em um plano também é excelente."
                 </p>
-                <p className="font-bold text-[#2A2F31]">- Juliana S.</p>
+                <p className="font-bold text-[#2A2F31]">- Vanessa</p>
               </CardContent>
             </Card>
 
@@ -353,10 +354,12 @@ export default function PanobiancoLanding() {
               <CardContent className="p-0">
                 <Quote className="w-8 h-8 sm:w-12 sm:h-12 text-[#f15927] mb-4 sm:mb-6" />
                 <p className="text-base sm:text-lg text-gray-700 mb-4 sm:mb-6 leading-relaxed">
-                  "O que mais me impressiona é a variedade. Hoje faço musculação, amanhã Muay Thai, depois FitDance.
-                  Nunca fico entediado e os resultados apareceram muito mais rápido do que eu esperava!"
+                  "Eu adoro a estrutura isolada da academia. Como tem 3 andares, você pode fazer um treino isolado ali
+                  só pro peito, um treino só pra perna, o cardio, tudo num único setor. A qualidade dos equipamentos
+                  também é um grande diferencial. Ergonomia exclusiva e atenção aos mínimos detalhes que fazem a
+                  diferença no treino. Até as esteiras são de ponta com Youtube e Netflix."
                 </p>
-                <p className="font-bold text-[#2A2F31]">- Marcos P.</p>
+                <p className="font-bold text-[#2A2F31]">- Lucas</p>
               </CardContent>
             </Card>
           </div>
