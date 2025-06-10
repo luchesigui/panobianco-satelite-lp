@@ -208,6 +208,7 @@ export default function PanobiancoLanding() {
           <div className="bg-white p-5 sm:p-8 rounded-lg shadow-lg">
             <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
               {[
+                { item: "Taxa de adesão/manutenção", price: "R$120,00" },
                 { item: "Avaliação Física com Nutricionista", price: "R$150,00" },
                 { item: "Aulas de Muay Thai", price: "R$150,00" },
                 { item: "Aulas de Jiu Jitsu", price: "R$180,00" },
@@ -222,7 +223,7 @@ export default function PanobiancoLanding() {
 
             <div className="text-center">
               <p className="text-xl sm:text-2xl font-bold text-[#2A2F31] mb-2">VALOR TOTAL DOS BENEFÍCIOS:</p>
-              <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#2A2F31] line-through">R$ 630,00</p>
+              <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#2A2F31] line-through">R$ 750,00</p>
             </div>
           </div>
         </div>
